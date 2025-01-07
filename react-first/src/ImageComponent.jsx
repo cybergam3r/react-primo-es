@@ -12,6 +12,7 @@ class ImageComponent extends Component {
 ImageComponent.propTypes = {
   src: PropTypes.string.isRequired,
   alt: PropTypes.string.isRequired,
+  
 };
 
 export default ImageComponent;
